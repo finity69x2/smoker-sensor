@@ -11,6 +11,8 @@ The Arduino skecth is included here along with a schematic developed using the F
 
 Here is the parts list:
 
+| Part | Link |
+| --- | --- |
 | NodeMCU | https://smile.amazon.com/gp/product/B07L8W9SP3 |
 | Thermocouple probe | https://smile.amazon.com/gp/product/B07JL1SN7X |
 | MAX31855 breakout board for thermocouple | https://smile.amazon.com/gp/product/B07T7WY3H8 |
@@ -27,4 +29,6 @@ Here is the parts list:
 | resistors | https://smile.amazon.com/gp/product/B072BL2VX1 |
 
 You can likely get all of this cheaper on sites like Aliexpress with the attendant longer shipping times.
+
+Here athe pictures of the end result:
 
