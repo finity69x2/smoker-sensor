@@ -1,6 +1,6 @@
-# smoker-sensor
+# Smoker Sensor
 
-I created a sensor that will read both the temperature of a smoker box and a single probe for food temperature.
+This is a sensor that will read both the temperature of a smoker box and a single probe for food temperature.
 
 It provides a webpage to display the current temperatures (updates every 10 seconds) along with communication to an MQTT broker for 
 accessing the temperatures for my home automation system (Home Assistant).
