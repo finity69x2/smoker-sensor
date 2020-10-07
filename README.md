@@ -34,11 +34,15 @@ The sensor serves up a webpage to allow you to see the current temperatues in re
 
 I have provided two different Arduino Sketches. One that provides the MQTT connection and one that doesn't. So if you don't have the need to use MQTT then use the latter (non-MQTT) sketch.
 
-Initial config is done via an AP (SmokerConnectAP) provided by the NodeMCU. Once connected to the AP then navigate 192.168.1.4 and fill in your credentials.
+You will need to determine the co-erfficients for the thermistor you use and what the nominal resistance is and enter that info into the Arduino sketch. the sketch also allows you to use the Beta value if that has been supplied by the manufacturer. Just uncomment whichever method you will want to use.
+
+After the sketch is flashed to the NodeMCU initial network config is done via an AP (SmokerConnectAP) provided by the NodeMCU. Once connected to the AP then navigate 192.168.1.4 and fill in your credentials.
 
 After the initial config is completed then the sensor will reboot and connect to your wifi network (and MQTT broker if used). You will need to go into your router to find the IP address of the sensor or however you normally find IP addresses of devices on your network.
 
-The sensor has three status LED's - One for Power (green), One for Wifi connection status (blue) and an activity LED (red)
+The sensor has three status LED's - One for Power (green), One for Wifi connection status (blue) and an activity LED (red).
+
+It uses a thermistor for measuring the food temperature and a K-type thermocouple for the smoker box temerature measurement.
 
 Here is the schematic:
 
