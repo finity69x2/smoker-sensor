@@ -40,6 +40,10 @@ After the initial config is completed then the sensor will reboot and connect to
 
 The sensor has three status LED's - One for Power (green), One for Wifi connection status (blue) and an activity LED (red)
 
+Here is the schematic:
+
+![Schematic](smoker_schematic.gif)
+
 Here are the pictures of the end result:
 
 ![Pic1](1.gif)
